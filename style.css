@@ -7,6 +7,29 @@ b {
     text-decoration-line: underline;
 }
 
+button {
+    width: 100%;
+    height: 2em;
+    border-radius: 1em;
+    border: 1px solid black;
+    background: #a28879;
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
+button:active {
+    background: #5f574f;
+    color: #FFF1E8;
+}
+
+textarea {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-family: monospace;
+    width:100%;
+    font-size: 1.1em;
+}
+
 .imgcontainer {
     background: red;
     position: relative;

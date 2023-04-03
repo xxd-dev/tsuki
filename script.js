@@ -144,7 +144,7 @@ function bestTime(fishes) {
     if (times.length == 0) {
         return "There is no good way to catch multiple fish at once.";
     } else {
-        output = `Catch multiple fish:`;
+        output = `Good fishing times:`;
         for (let i = 0; i < Math.min(3, times.length); i++) {
             output += `<br><b>${formatHour(times[i][0])}</b>: <i>${formatList(times[i][1])}</i> -> <i>${formatFish(times[i][2])}</i>`
         }
@@ -153,15 +153,43 @@ function bestTime(fishes) {
 }
 
 function main() {
-    const url = new URL(window.location.href);
-    const inputs = url.searchParams.get('input').split("\n");
 
+    const url = new URL(window.location.href);
+    if (url.searchParams.has("input")) {
+        const inputs = url.searchParams.get('input').split("\n");
+        determineFish(inputs);
+    } else {
+        document.getElementById("reccomendation").innerHTML = `Enter all 3 fish: (ideally separated by new lines)`;
+        document.getElementById("bottom").innerHTML += 
+        `<textarea id="textarea" name="textarea" rows="5" cols="5"></textarea>
+        <button type="submit" onclick="submit();" id="submit">Show Fish</button>`;
+        var divsToHide = document.getElementsByClassName("fish");
+        for(var i = 0; i < divsToHide.length; i++){
+            divsToHide[i].style.display = "none";
+        }
+    }
+
+}
+
+function submit() {
+    console.log("submitting");
+    inputs = document.getElementById("textarea").value.split('\n');
+    document.getElementById("textarea").remove();
+    document.getElementById("submit").remove();
+    var divsToHide = document.getElementsByClassName("fish");
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "";
+    }
+    determineFish(inputs);
+}
+
+function determineFish(inputs) {
     var allfish = [];
 
     fishList.forEach(fish => {
         var bestSim = 0;
         inputs.forEach(element => {
-            sim = diceCoefficient(element, fish);
+            sim = diceCoefficient(element.toLocaleLowerCase(), fish.toLocaleLowerCase());
             if (sim > bestSim) {
                 bestSim = sim;
             }
@@ -186,6 +214,5 @@ function main() {
 
         document.getElementById(`f${index}i`).src = `fish/${filename}`;
     }
-
     document.getElementById("reccomendation").innerHTML = bestTime(foundfish);
 }
