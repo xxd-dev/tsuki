@@ -210,9 +210,9 @@ function determineFish(inputs) {
         ["ocean", "river", "pond"].forEach(element => {
             document.getElementById(`f${index}${element}`).innerHTML = fishDict[fish]["times_string"][element];
         })
-        filename = fish.replace(new RegExp("[ \\-']", 'g'), '').toLowerCase()+".png"
-
+        filename = fishDict[fish]["img"]
         document.getElementById(`f${index}i`).src = `fish/${filename}`;
+        // document.getElementById(`f${index}c`).innerHTML = fishDict[fish]["bounty"];
     }
     document.getElementById("reccomendation").innerHTML = bestTime(foundfish);
 }
