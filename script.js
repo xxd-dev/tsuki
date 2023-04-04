@@ -153,13 +153,13 @@ function bestTime(fishes) {
 }
 
 function main() {
-
+    
     const url = new URL(window.location.href);
     if (url.searchParams.has("input")) {
         const inputs = url.searchParams.get('input').split("\n");
         determineFish(inputs);
     } else {
-        document.getElementById("reccomendation").innerHTML = `Enter all 3 fish: (ideally separated by new lines)`;
+        document.getElementById("recommendation").innerHTML = `Enter all 3 fish: (ideally separated by new lines)`;
         document.getElementById("bottom").innerHTML += 
         `<textarea id="textarea" name="textarea" rows="5" cols="5"></textarea>
         <button type="submit" onclick="submit();" id="submit">Show Fish</button>`;
@@ -213,6 +213,8 @@ function determineFish(inputs) {
         filename = fishDict[fish]["img"]
         document.getElementById(`f${index}i`).src = `fish/${filename}`;
         // document.getElementById(`f${index}c`).innerHTML = fishDict[fish]["bounty"];
+        document.getElementById(`f${index}b`).innerHTML = fishDict[fish]["bounty"];
+        document.getElementById(`f${index}r`).innerHTML = fishDict[fish]["worth"]+"/";
     }
-    document.getElementById("reccomendation").innerHTML = bestTime(foundfish);
+    document.getElementById("recommendation").innerHTML = bestTime(foundfish);
 }
