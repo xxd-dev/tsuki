@@ -38,7 +38,7 @@ function getFishData() {
         },
         "Barracuda": {
             "times_string": {
-                "ocean": "5-7pm, 9pm",
+                "ocean": "5-7pm,9pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -54,7 +54,7 @@ function getFishData() {
         },
         "Black Seabass": {
             "times_string": {
-                "ocean": "5am-6pm, 12am",
+                "ocean": "5am-6pm,12am",
                 "river": "-",
                 "pond": "-"
             },
@@ -102,8 +102,8 @@ function getFishData() {
         },
         "Cod": {
             "times_string": {
-                "ocean": "4-8am, 1pm, 5-11pm",
-                "river": "4-9am, 5-11pm",
+                "ocean": "4-8am,1pm,5-11pm",
+                "river": "4-9am,5-11pm",
                 "pond": "-"
             },
             "times": {
@@ -134,7 +134,7 @@ function getFishData() {
         },
         "Flounder": {
             "times_string": {
-                "ocean": "5am-2pm, 11pm, 1am",
+                "ocean": "5am-2pm,11pm,1am",
                 "river": "-",
                 "pond": "-"
             },
@@ -150,7 +150,7 @@ function getFishData() {
         },
         "Flying Fish": {
             "times_string": {
-                "ocean": "2-4pm, 10pm-5am",
+                "ocean": "2-4pm,10pm-5am",
                 "river": "-",
                 "pond": "-"
             },
@@ -166,7 +166,7 @@ function getFishData() {
         },
         "Goliath Grouper": {
             "times_string": {
-                "ocean": "9am, 3pm, 10pm",
+                "ocean": "9am,3pm,10pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -198,7 +198,7 @@ function getFishData() {
         },
         "Herring": {
             "times_string": {
-                "ocean": "10am-1pm, 1am",
+                "ocean": "10am-1pm,1am",
                 "river": "1am",
                 "pond": "-"
             },
@@ -214,7 +214,7 @@ function getFishData() {
         },
         "Horseshoe Crab": {
             "times_string": {
-                "ocean": "10am-4pm, 12-5am",
+                "ocean": "10am-4pm,12-5am",
                 "river": "-",
                 "pond": "-"
             },
@@ -246,7 +246,7 @@ function getFishData() {
         },
         "Lionfish": {
             "times_string": {
-                "ocean": "10am-7pm, 12am",
+                "ocean": "10am-7pm,12am",
                 "river": "-",
                 "pond": "-"
             },
@@ -262,7 +262,7 @@ function getFishData() {
         },
         "Mackerel": {
             "times_string": {
-                "ocean": "8am-2pm, 12am",
+                "ocean": "8am-2pm,12am",
                 "river": "-",
                 "pond": "-"
             },
@@ -294,7 +294,7 @@ function getFishData() {
         },
         "Marlin": {
             "times_string": {
-                "ocean": "1pm, 8pm",
+                "ocean": "1pm,8pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -310,7 +310,7 @@ function getFishData() {
         },
         "Moon Jellyfish": {
             "times_string": {
-                "ocean": "3-5pm, 3-7am",
+                "ocean": "3-5pm,3-7am",
                 "river": "-",
                 "pond": "-"
             },
@@ -344,7 +344,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "1-6am",
                 "river": "5-8pm",
-                "pond": "2pm, 12-5am"
+                "pond": "2pm,12-5am"
             },
             "times": {
                 "ocean": "011111100000000000000000",
@@ -358,7 +358,7 @@ function getFishData() {
         },
         "Pufferfish": {
             "times_string": {
-                "ocean": "12pm, 5-11pm, 1-2am",
+                "ocean": "12pm,5-11pm,1-2am",
                 "river": "-",
                 "pond": "-"
             },
@@ -374,7 +374,7 @@ function getFishData() {
         },
         "Red Snapper": {
             "times_string": {
-                "ocean": "2-5pm, 3-4am",
+                "ocean": "2-5pm,3-4am",
                 "river": "3-5pm",
                 "pond": "-"
             },
@@ -390,7 +390,7 @@ function getFishData() {
         },
         "Rock Beauty": {
             "times_string": {
-                "ocean": "6-7am, 1pm",
+                "ocean": "6-7am,1pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -406,7 +406,7 @@ function getFishData() {
         },
         "Sand Shark": {
             "times_string": {
-                "ocean": "11am, 4pm, 6pm",
+                "ocean": "11am,4pm,6pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -422,7 +422,7 @@ function getFishData() {
         },
         "Seahorse": {
             "times_string": {
-                "ocean": "5-7am, 1-10pm",
+                "ocean": "5-7am,1-10pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -438,7 +438,7 @@ function getFishData() {
         },
         "Spiny Lobster": {
             "times_string": {
-                "ocean": "12-2pm, 11pm, 2am",
+                "ocean": "12-2pm,11pm,2am",
                 "river": "-",
                 "pond": "-"
             },
@@ -454,8 +454,8 @@ function getFishData() {
         },
         "Spotted Ray": {
             "times_string": {
-                "ocean": "5-7am, 1pm, 5pm, 9-11pm",
-                "river": "5-7am, 10pm",
+                "ocean": "5-7am,1pm,5pm,9-11pm",
+                "river": "5-7am,10pm",
                 "pond": "-"
             },
             "times": {
@@ -502,7 +502,7 @@ function getFishData() {
         },
         "Sunken Bag": {
             "times_string": {
-                "ocean": "5am, 1pm, 7pm, 1am, 3am",
+                "ocean": "5am,1pm,7pm,1am,3am",
                 "river": "-",
                 "pond": "-"
             },
@@ -518,7 +518,7 @@ function getFishData() {
         },
         "Tuna": {
             "times_string": {
-                "ocean": "10am-5pm, 11pm",
+                "ocean": "10am-5pm,11pm",
                 "river": "-",
                 "pond": "-"
             },
@@ -535,8 +535,8 @@ function getFishData() {
         "Angelfish": {
             "times_string": {
                 "ocean": "-",
-                "river": "1-2pm, 6pm, 9pm-4am",
-                "pond": "12-1pm, 9pm-4am"
+                "river": "1-2pm,6pm,9pm-4am",
+                "pond": "12-1pm,9pm-4am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -551,8 +551,8 @@ function getFishData() {
         "Archer Fish": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-1pm, 11pm-5am",
-                "pond": "12-2pm, 11pm-5am"
+                "river": "12-1pm,11pm-5am",
+                "pond": "12-2pm,11pm-5am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -567,7 +567,7 @@ function getFishData() {
         "Barb": {
             "times_string": {
                 "ocean": "-",
-                "river": "1-10am, 3-4pm, 12am",
+                "river": "1-10am,3-4pm,12am",
                 "pond": "3pm"
             },
             "times": {
@@ -583,7 +583,7 @@ function getFishData() {
         "Betta": {
             "times_string": {
                 "ocean": "-",
-                "river": "7am-6pm, 12-1am",
+                "river": "7am-6pm,12-1am",
                 "pond": "-"
             },
             "times": {
@@ -599,7 +599,7 @@ function getFishData() {
         "Bluegill": {
             "times_string": {
                 "ocean": "-",
-                "river": "5am, 6-8pm, 1-3am",
+                "river": "5am,6-8pm,1-3am",
                 "pond": "-"
             },
             "times": {
@@ -647,8 +647,8 @@ function getFishData() {
         "Crayfish": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-3pm, 12-3am",
-                "pond": "12-3pm, 12-3am"
+                "river": "12-3pm,12-3am",
+                "pond": "12-3pm,12-3am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -663,7 +663,7 @@ function getFishData() {
         "Electric Eel": {
             "times_string": {
                 "ocean": "-",
-                "river": "10am-12pm, 7-8pm, 12am",
+                "river": "10am-12pm,7-8pm,12am",
                 "pond": "-"
             },
             "times": {
@@ -679,8 +679,8 @@ function getFishData() {
         "Gar": {
             "times_string": {
                 "ocean": "-",
-                "river": "12pm, 2pm, 1-6am",
-                "pond": "12pm, 2pm, 1-7am"
+                "river": "12pm,2pm,1-6am",
+                "pond": "12pm,2pm,1-7am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -711,8 +711,8 @@ function getFishData() {
         "Grasscarp": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-6pm, 9pm-1am",
-                "pond": "12-5pm, 9pm-1am"
+                "river": "12-6pm,9pm-1am",
+                "pond": "12-5pm,9pm-1am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -743,7 +743,7 @@ function getFishData() {
         "Loach": {
             "times_string": {
                 "ocean": "-",
-                "river": "10pm, 3am",
+                "river": "10pm,3am",
                 "pond": "-"
             },
             "times": {
@@ -759,7 +759,7 @@ function getFishData() {
         "Minnow": {
             "times_string": {
                 "ocean": "-",
-                "river": "11am-2pm, 12-4am",
+                "river": "11am-2pm,12-4am",
                 "pond": "-"
             },
             "times": {
@@ -791,7 +791,7 @@ function getFishData() {
         "Perch": {
             "times_string": {
                 "ocean": "-",
-                "river": "4-7am, 2-3am",
+                "river": "4-7am,2-3am",
                 "pond": "1-7am"
             },
             "times": {
@@ -823,8 +823,8 @@ function getFishData() {
         "Pleco": {
             "times_string": {
                 "ocean": "-",
-                "river": "4-9am, 11am-1pm, 10-11pm",
-                "pond": "5am-1pm, 10-11pm, 1-3am"
+                "river": "4-9am,11am-1pm,10-11pm",
+                "pond": "5am-1pm,10-11pm,1-3am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -855,7 +855,7 @@ function getFishData() {
         "River Eel": {
             "times_string": {
                 "ocean": "-",
-                "river": "9am-12pm, 2pm, 12-3am",
+                "river": "9am-12pm,2pm,12-3am",
                 "pond": "-"
             },
             "times": {
@@ -871,7 +871,7 @@ function getFishData() {
         "Salmon": {
             "times_string": {
                 "ocean": "-",
-                "river": "5-11am, 6-7pm",
+                "river": "5-11am,6-7pm",
                 "pond": "-"
             },
             "times": {
@@ -887,7 +887,7 @@ function getFishData() {
         "Snake Head": {
             "times_string": {
                 "ocean": "-",
-                "river": "12pm, 3pm",
+                "river": "12pm,3pm",
                 "pond": "-"
             },
             "times": {
@@ -919,7 +919,7 @@ function getFishData() {
         "Trout": {
             "times_string": {
                 "ocean": "-",
-                "river": "5-7am, 6-7pm",
+                "river": "5-7am,6-7pm",
                 "pond": "-"
             },
             "times": {
@@ -951,7 +951,7 @@ function getFishData() {
         "Zander": {
             "times_string": {
                 "ocean": "-",
-                "river": "10am-12pm, 2-4pm, 7pm, 3-5am",
+                "river": "10am-12pm,2-4pm,7pm,3-5am",
                 "pond": "-"
             },
             "times": {
@@ -1048,7 +1048,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7am-1pm, 12am"
+                "pond": "7am-1pm,12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1064,7 +1064,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7-11am, 1am"
+                "pond": "7-11am,1am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1096,7 +1096,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "11am-2pm, 12am"
+                "pond": "11am-2pm,12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1112,7 +1112,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "4-5pm, 7-8pm"
+                "pond": "4-5pm,7-8pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1128,7 +1128,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "10am-12pm, 2-5pm, 7-8pm, 12am"
+                "pond": "10am-12pm,2-5pm,7-8pm,12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1144,7 +1144,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7-10am, 3pm, 1am"
+                "pond": "7-10am,3pm,1am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1192,7 +1192,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "9am-1pm, 9-11pm, 1am"
+                "pond": "9am-1pm,9-11pm,1am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1240,7 +1240,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7am-2pm, 12am"
+                "pond": "7am-2pm,12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1256,7 +1256,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "11am-5pm, 12am"
+                "pond": "11am-5pm,12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1288,7 +1288,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "2pm, 5-8pm"
+                "pond": "2pm,5-8pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1304,7 +1304,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "12am, 2pm, 5pm, 9pm"
+                "pond": "12am,2pm,5pm,9pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
@@ -1320,7 +1320,7 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "11am, 1pm, 12-4am"
+                "pond": "11am,1pm,12-4am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
