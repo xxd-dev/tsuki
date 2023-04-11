@@ -76,16 +76,15 @@
     margin-top: 0;
     background-color: #ffccaa;
     border-radius: 1em;
-    width: calc(100% - 1.4em);
-    padding: 1em;
-    padding-left: .5em;
-    padding-right: .5em;
+    width: calc(100% - 0.4em);
 }
 
 .description pre {
     font-family: monospace;
     font-size: 1.2em;
-    padding-bottom: .5em;
+    padding: .2em;
+    padding-left: .6em;
+    padding-right: 0;
     color: #5f574f;
 }
 
@@ -165,86 +164,11 @@ a {
     }
 }
 
-.accordion {
-    background-color: #0000;
-    border-radius: 1em;
-    cursor: pointer;
-    padding: 1rem;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-
-    font-family: monospace;
-    color: #5f574f;
-    font-weight: bold;
-    font-size: 1.8em;
-}
-  
-.active, .accordion:hover {
-    text-decoration-line: underline;
-}
-  
-.accordion:after {
-    content: '\002B';
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-  
-.active:after {
-    content: "\2212";
-}
-  
-.panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-textarea {
-    font-family: monospace;
-    border-radius: .25em;
-    font-size: 1em;
-    padding: .75em;
-    
-    width: calc(100% - 4px - 1.5em);
-    border: 2px solid #5f574f;
-    outline: none;
-}
-
-.submit {
+#fishcontainer > pre {
+    background-color: #291814;
+    color: #FFF1E8;
+    padding: .5em;
+    padding-left: 1em;
+    margin-bottom: .5em;
     border-radius: .5em;
-    width: 100%;
-    outline: none;
-    border: 2px solid #5f574f;
-    font-family: monospace;
-    font-size: 1.5em;
-    background-color: #a28879;
-    color: #fff1e8;
-    text-align: center;
-    margin-bottom: 0em;
-}
-
-.submit:hover {
-    text-decoration-line: underline;
-}
-
-.submit:active {
-    background-color: #5f574f;
-}
-
-select {
-    border: 2px solid #5f574f;
-    font-family: monospace;
-    background-color: #ffccaa;
-    box-shadow: none;
-    outline: none;
-    font-size: 1em;
-}
-
-pre a {
-    color: #5f574f;
-    font-size: 1em;
 }
