@@ -13,71 +13,78 @@
     </head>
     <body onload="main()">
         <div id="fishcontainer">
-            <div class="fish">
-                <div class="ear">
-                    <p class="reward" id="f0r">300/</p><p id="f0b">1500</p>
-                    <img src="carrot.png" alt="carrots">
-                </div>
-                <div class="paper">
-                    <div class="dotted">
-                        <div class="head">
-                            <div class="imgcontainer">
-                                <img id="f0i" src="fish/placeholder.png" alt="placeholder" class="icon">
-                            </div>
-                            <p id="f0t">Fish 1</p>
-                        </div>
+            <div class="toplink"><a href="../index.html"><b>Tsuki's Fishing Guide</b></a></div>
+            <div class="paper">
+                <div class="dotted">
+                    <button class="accordion">by fish</button>
+                    <div class="panel">
                         <div class="description">
-                            <pre>Ocean: <i id="f0ocean">-</i>
-River: <i id="f0river">-</i>
-Pond:  <i id="f0pond">-</i></pre>
+                            <pre>Search for the timeslots, where each fish is available.
+Enter the 3 fish below:</pre>
+                            <textarea name="fish" id="fish" cols="3" rows="3"></textarea>
+                            <button class="submit" onclick="fish()">Search</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="fish">
-                <div class="ear">
-                    <p class="reward" id="f1r">300/</p><p id="f1b">1500</p>
-                    <img src="carrot.png" alt="carrots">
-                </div>
-                <div class="paper">
-                    <div class="dotted">
-                        <div class="head">
-                            <div class="imgcontainer">
-                                <img id="f1i" src="fish/placeholder.png" alt="placeholder" class="icon">
-                            </div>
-                            <p id="f1t">Fish 2</p>
-                        </div>
+            
+            <div class="paper">
+                <div class="dotted">
+                    <button class="accordion">by time and location</button>
+                    <div class="panel">
                         <div class="description">
-                            <pre>Ocean: <i id="f1ocean">-</i>
-River: <i id="f1river">-</i>
-Pond:  <i id="f1pond">-</i></pre>
+                            <pre>Search for all fish present at a certain time/location:
+Enter the location and last full hour below:</pre>
+                            <pre><select name="locations" id="locations">
+                                <option value="ocean">ocean</option>
+                                <option value="river">river</option>
+                                <option value="pond">pond</option>
+                            </select> at <select name="times" id="times">
+                                <option value="0">12am</option>
+                                <option value="1">1am</option>
+                                <option value="2">2am</option>
+                                <option value="3">3am</option>
+                                <option value="4">4am</option>
+                                <option value="5">5am</option>
+                                <option value="6">6am</option>
+                                <option value="7">7am</option>
+                                <option value="8">8am</option>
+                                <option value="9">9am</option>
+                                <option value="10">10am</option>
+                                <option value="11">11am</option>
+                                <option value="12">12pm</option>
+                                <option value="13">1pm</option>
+                                <option value="14">2pm</option>
+                                <option value="15">3pm</option>
+                                <option value="16">4pm</option>
+                                <option value="17">5pm</option>
+                                <option value="18">6pm</option>
+                                <option value="19">7pm</option>
+                                <option value="20">8pm</option>
+                                <option value="21">9pm</option>
+                                <option value="22">10pm</option>
+                                <option value="23">11pm</option>
+                            </select></pre>
+                            <button class="submit" onclick="timeloc()">Search</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="fish">
-                <div class="ear">
-                    <p class="reward" id="f2r">300/</p><p id="f2b">150</p>
-                    <img src="carrot.png" alt="carrots">
-                </div>
-                <div class="paper">
-                    <div class="dotted">
-                        <div class="head">
-                            <div class="imgcontainer">
-                                <img id="f2i" src="fish/placeholder.png" alt="placeholder" class="icon">
-                            </div>
-                            <p id="f2t">Fish 3</p>
-                        </div>
+            <div class="paper">
+                <div class="dotted">
+                    <button class="accordion">general info</button>
+                    <div class="panel">
                         <div class="description">
-                            <pre>Ocean: <i id="f2ocean">-</i>
-River: <i id="f2river">-</i>
-Pond:  <i id="f2pond">-</i></pre>
+                            <pre>Welcome to <b>Tsuki's Fishing Guide</b>!
+
+This site includes a few tools to help you catch the fish you're looking for in Tsuki's Odyssey. If you have any ideas or want something changed, you can send me an <a href="mailto:xxd-dev-github@pm.me">email</a> with your suggestion, or go to this project's <a href="https://github.com/xxd-dev/tsuki">github</a> and open an issue.
+
+The Data is taken from <a href="https://tsuki-odyssey.fandom.com/wiki/Fishing#Fishing_spots_and_times">the wiki</a> and may not always be accurate or complete. If the wiki changes, I'll update this tool periodically too.
+
+Thank you and good luck fishing! </pre>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="bottom">
-                <pre id="recommendation">Something is not working... please make sure javascript is enabled</pre>
             </div>
         </div>
     </body>

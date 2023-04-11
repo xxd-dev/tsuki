@@ -513,7 +513,7 @@ function getFishData() {
             },
             "rarity": "Epic",
             "worth": "250",
-            "bounty": "",
+            "bounty": "-",
             "img": "sunkenbag.png"
         },
         "Tuna": {
