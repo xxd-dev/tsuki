@@ -6,11 +6,6 @@ function main() {
     const url = new URL(window.location.href);
     if (url.searchParams.has("input")) {
         let inputs = url.searchParams.get('input');
-        let urltext = window.location.href;
-        let index = urltext.lastIndexOf("/");
-        let new_url = urltext.substring(0, index + 1);
-        window.location.replace(new_url);
-        console.log(inputs);
         forward("fish/index.html?input="+encodeURIComponent(inputs));
     }
 
